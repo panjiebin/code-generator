@@ -32,7 +32,7 @@ public class CodeGenerator {
      *  private int age;
      * }
      * generate("builder-pattern.ftl", Person.class)
-     *}</pre>
+     * }</pre>
      * @param tplName 模板名称，参见{@code /resources/templates}
      * @param aClass 类
      */
