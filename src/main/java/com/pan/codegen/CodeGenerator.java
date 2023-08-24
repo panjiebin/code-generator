@@ -17,6 +17,9 @@ public class CodeGenerator {
 
     public static final String PROTOCOL_JAR = "jar";
 
+    private CodeGenerator() {
+    }
+
     /**
      * 根据半成品类和代码模板生成代码
      * <p>比如下面这个类，处理后，可以生成建造者模式的完整类

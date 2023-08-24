@@ -22,6 +22,9 @@ public class TemplateProcessor {
         TPL_CFG.setDefaultEncoding("UTF-8");
     }
 
+    private TemplateProcessor() {
+    }
+
     public static void process(String tplDir, String tplName, Object dataModel, String outPath) {
         OutputStreamWriter writer = null;
         try {
